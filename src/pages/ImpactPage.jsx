@@ -5,34 +5,37 @@ import bgColor from "../assets/images/bgColor3.jpg";
 import careerMentorship from "../assets/images/careerMentorship.jpg";
 import careerWorkshop2 from "../assets/images/careerWorkshop2.jpg";
 import studentMentorship from "../assets/images/studentMentorship.jpg";
-
 const stats = [
-  { value: 1200, label: "Students Supported", icon: "bi-mortarboard-fill", suffix: "+" },
-  { value: 8, label: "Active Programs", icon: "bi-grid-fill", suffix: "" },
-  { value: 15, label: "Communities Reached", icon: "bi-geo-alt-fill", suffix: "+" },
-  { value: 98, label: "Satisfaction Rate", icon: "bi-star-fill", suffix: "%" },
+  { value: 100, label: "Students Supported", icon: "bi-mortarboard-fill", suffix: "+" },
+  { value: 5, label: "Active Programs", icon: "bi-grid-fill", suffix: "" },
+  { value: 8, label: "Communities Reached", icon: "bi-geo-alt-fill", suffix: "+" },
+  { value: 95, label: "Satisfaction Rate", icon: "bi-star-fill", suffix: "%" },
 ];
 
 const stories = [
   {
     img: careerMentorship,
-    name: "Career Mentorship",
-    quote: "The mentorship program gave me direction when I had none. Today I run my own small business and support my family.",
-    person: "Program Participant, Nairobi",
+    name: "Economic Empowerment",
+    quote:
+      "For years, I didn't know my purpose. Today, I run my own small business and support my family thanks to the Economic Empowerment Program",
+    person: "Mumbi, Karigiri, Embu",
   },
   {
-    img: careerWorkshop2,
-    name: "Career Workshops",
-    quote: "I walked into the workshop not knowing what I wanted. I walked out with a five-year plan and the confidence to pursue it.",
-    person: "Youth Beneficiary, Mombasa",
+    img: careerMentorship,
+    name: "Career Workshop",
+    quote:
+      "I walked into the workshop not knowing what I wanted. I walked out with a plan and the confidence to pursue it",
+    person: "Newton, Iriari, Embu",
   },
   {
     img: studentMentorship,
     name: "Student Mentorship",
-    quote: "Having a mentor who believed in me changed everything. My grades improved and I am now preparing for university.",
-    person: "Secondary Student, Kisumu",
+    quote:
+      "Having a mentor who believed in me changed everything. My grades improved and I am now pursuing a bachelor degree in the university",
+    person: "Immaculate, Njeruri, Embu",
   },
 ];
+
 
 const outcomes = [
   { icon: "bi-graph-up-arrow", title: "150+", sub: "Small businesses launched by program graduates" },
