@@ -24,10 +24,10 @@ export default function ContactPage() {
       <div className="page-hero" style={{ "--page-hero-bg": `url(${bgColor})` }}>
         <div className="page-hero-overlay">
           <div className="container text-center">
-            <span className="impact-eyebrow">We'd love to hear from you</span>
+            <span className="impact-eyebrow">We would love to hear from you</span>
             <h1 className="page-hero-title">Get In Touch</h1>
             <p className="page-hero-sub">
-              Have a question, partnership idea, or want to volunteer? Reach out and our team will respond within 48 hours.
+              Have a question, partnership idea, or want to volunteer? Reach out and our team will respond within 48 hours
             </p>
           </div>
         </div>
@@ -42,15 +42,15 @@ export default function ContactPage() {
               <div className="contact-info">
                 <div className="contact-info-item">
                   <div className="contact-info-icon"><i className="bi bi-geo-alt-fill"></i></div>
-                  <div><h6>Our Location</h6><p>Nairobi, Kenya</p></div>
+                  <div><h6>Our Location</h6><p>Embu, Kenya</p></div>
                 </div>
                 <div className="contact-info-item">
                   <div className="contact-info-icon"><i className="bi bi-envelope-fill"></i></div>
-                  <div><h6>Email Us</h6><p>info@com-light.org</p></div>
+                  <div><h6>Email Us</h6><p>comlight-clg@gmail.com</p></div>
                 </div>
                 <div className="contact-info-item">
                   <div className="contact-info-icon"><i className="bi bi-telephone-fill"></i></div>
-                  <div><h6>Call Us</h6><p>+254 700 000 000</p></div>
+                  <div><h6>Call Us</h6><p>+254 727 340 017</p></div>
                 </div>
                 <div className="contact-info-item">
                   <div className="contact-info-icon"><i className="bi bi-clock-fill"></i></div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                 <div className="contact-success">
                   <div className="contact-success-icon"><i className="bi bi-check-circle-fill"></i></div>
                   <h4>Message Sent!</h4>
-                  <p>Thank you for reaching out. We will get back to you within 48 hours.</p>
+                  <p>Thank you for reaching out. We will get back to you within 48 hours</p>
                   <button className="contact-reset-btn" onClick={() => { setForm({ name:"",email:"",subject:"",message:"" }); setSubmitted(false); }}>
                     Send Another Message
                   </button>

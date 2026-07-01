@@ -33,13 +33,13 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2018", event: "Com-Light founded in Nairobi with a vision to transform communities holistically." },
-  { year: "2019", event: "Launched the Elimisha Program, supporting 80 students in our first cohort." },
-  { year: "2020", event: "Opened our first Community Reading Centre and initiated the Library Program." },
-  { year: "2021", event: "Expanded to 3 counties and launched the Career Workshop series." },
-  { year: "2022", event: "Introduced the Student Mentorship Program, building 100 mentorship pairs." },
-  { year: "2023", event: "Launched Economic Empowerment track; 1,000th beneficiary milestone reached." },
-  { year: "2024", event: "Expanded team to 7 directors and established partnerships across 15 communities." },
+  { year: "February, 2024", event: "Com-Light founded in Embu with a vision to transform communities holistically" },
+  { year: "April, 2024", event: "Launched the the Career Workshop series, supporting one student in our first cohort" },
+  { year: "August, 2024", event: "Introduced the Student Mentorship Program, building 100 mentorship pairs" },
+  { year: "December, 2024", event: "Launched Economic Empowerment track; 1,000th beneficiary milestone reached" },
+  { year: "December, 2024", event: "Expanded team to 7 directors" },
+  { year: "January, 2025", event: "Launched the Elimisha Program, supporting 5 students in our first cohort" },
+  { year: "April, 2025", event: "Opened our first Community Reading Centre and initiated the Library Program" },
 ];
 
 export default function AboutPage() {
@@ -59,7 +59,7 @@ export default function AboutPage() {
             <span className="impact-eyebrow">Our Story</span>
             <h1 className="page-hero-title">About Com-Light</h1>
             <p className="page-hero-sub">
-              A non-profit born from the conviction that every community, no matter how under-resourced, holds the seeds of its own transformation.
+              A non-profit born from the conviction that every community, no matter how under-resourced, holds the seeds of its own transformation
             </p>
           </div>
         </div>
