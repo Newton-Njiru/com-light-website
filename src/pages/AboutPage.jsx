@@ -15,7 +15,7 @@ import visionImg from "../assets/images/vision.jpg";
 import officeImg from "../assets/images/office.jpg";
 
 const team = [
-  { photo: ceo, title: "Chief Executive Officer", dept: "Executive Leadership" },
+  { photo: ceo, title: "CEO", dept: "Executive Leadership" },
   { photo: od, title: "Operations Director", dept: "Operations" },
   { photo: hr, title: "HR Director", dept: "Human Resources" },
   { photo: fd, title: "Finance Director", dept: "Finance" },
