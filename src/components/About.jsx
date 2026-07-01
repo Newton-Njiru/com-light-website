@@ -25,17 +25,17 @@ const purposeItems = [
   {
     icon: "bi-eye-fill",
     title: "Vision",
-    text: "Transform lives through sustainable solutions."
+    text: "Transform lives through sustainable solutions"
   },
   {
     icon: "bi-bullseye",
     title: "Mission",
-    text: "To transform communities holistically through integrating solution-focused approaches by mobilizing resources to bring light, growth, and development."
+    text: "To transform communities holistically through integrating solution-focused approaches by mobilizing resources to bring light, growth, and development"
   },
   {
     icon: "bi-heart-fill",
     title: "Core Values",
-    text: "Commitment, Inclusivity, Innovation, Accountability, and Sustainability."
+    text: "Commitment, Inclusivity, Innovation, Accountability, and Sustainability"
   }
 ];
 
@@ -57,7 +57,7 @@ export default function AboutUs() {
             Com-Light is a non-profit Organization founded to bridge gaps in
             education and economic opportunity by delivering sustainable,
             practical solutions that unlock potential, restore dignity,
-            and create lasting impact across generations.
+            and create lasting impact across generations
           </p>
 
           <Link to="/about" className="about-cta">

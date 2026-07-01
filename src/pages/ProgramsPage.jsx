@@ -31,9 +31,6 @@ export default function ProgramsPage() {
           <div className="programs-hero-content container text-center">
             <span className="impact-eyebrow">What We Do</span>
             <h1 className="page-hero-title">Our Programs</h1>
-            <p className="page-hero-sub">
-              Five flagship programs designed to educate, empower, and transform communities across Kenya.
-            </p>
           </div>
         </div>
       </div>
@@ -78,7 +75,7 @@ export default function ProgramsPage() {
       <section className="ap-cta">
         <div className="container text-center">
           <h3 className="ap-cta-title">Interested in supporting a program?</h3>
-          <p className="ap-cta-sub">Your involvement — as a volunteer, donor, or partner — helps us reach more lives.</p>
+          <p className="ap-cta-sub">Your involvement as a volunteer, donor, or partner helps us reach more lives</p>
           <div className="ap-cta-btns">
             <Link to="/getinvolved" className="ap-cta-primary">Get Involved</Link>
             <Link to="/contact" className="ap-cta-secondary">Contact Us</Link>

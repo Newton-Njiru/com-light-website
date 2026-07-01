@@ -6,33 +6,33 @@ import careerWorkshop2 from "../assets/images/careerWorkshop2.jpg";
 import studentMentorship from "../assets/images/studentMentorship.jpg";
 
 const stats = [
-  { value: 1200, label: "Students Supported", icon: "bi-mortarboard-fill", suffix: "+" },
-  { value: 8, label: "Active Programs", icon: "bi-grid-fill", suffix: "" },
-  { value: 15, label: "Communities Reached", icon: "bi-geo-alt-fill", suffix: "+" },
-  { value: 98, label: "Satisfaction Rate", icon: "bi-star-fill", suffix: "%" },
+  { value: 100, label: "Students Supported", icon: "bi-mortarboard-fill", suffix: "+" },
+  { value: 5, label: "Active Programs", icon: "bi-grid-fill", suffix: "" },
+  { value: 8, label: "Communities Reached", icon: "bi-geo-alt-fill", suffix: "+" },
+  { value: 95, label: "Satisfaction Rate", icon: "bi-star-fill", suffix: "%" },
 ];
 
 const stories = [
   {
     img: careerMentorship,
-    name: "Career Mentorship",
+    name: "Economic Empowerment",
     quote:
-      "The mentorship program gave me direction when I had none. Today I run my own small business and support my family.",
-    person: "Program Participant, Nairobi",
+      "For years, I didn't know my purpose. Today, I run my own small business and support my family thanks to the Economic Empowerment Program",
+    person: "Mumbi, Karigiri, Embu",
   },
   {
-    img: careerWorkshop2,
-    name: "Career Workshops",
+    img: careerMentorship,
+    name: "Career Workshop",
     quote:
-      "I walked into the workshop not knowing what I wanted. I walked out with a five-year plan and the confidence to pursue it.",
-    person: "Youth Beneficiary, Mombasa",
+      "I walked into the workshop not knowing what I wanted. I walked out with a plan and the confidence to pursue it",
+    person: "Newton, Iriari, Embu",
   },
   {
     img: studentMentorship,
     name: "Student Mentorship",
     quote:
-      "Having a mentor who believed in me changed everything. My grades improved and I am now preparing for university.",
-    person: "Secondary Student, Kisumu",
+      "Having a mentor who believed in me changed everything. My grades improved and I am now pursuing a bachelor degree in the university",
+    person: "Immaculate, Njeruri, Embu",
   },
 ];
 
@@ -80,10 +80,10 @@ export default function Impact() {
       <div className="impact-hero" style={{ "--impact-bg": `url(${bgColor})` }}>
         <div className="impact-hero-overlay">
           <div className="container text-center impact-hero-content">
-            <span className="impact-eyebrow">Real Change. Real People.</span>
+            <span className="impact-eyebrow">Real Change | Real People</span>
             <h2 className="impact-hero-title">Our Impact</h2>
             <p className="impact-hero-sub">
-              Every number represents a life touched, a community lifted, and a future unlocked.
+              Every number represents a life touched, a community lifted, and a future unlocked
             </p>
           </div>
         </div>

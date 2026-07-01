@@ -29,7 +29,7 @@ export default function Footer() {
                 <img src={logo} alt="Com-Light" className="footer-logo" />
                 <h5 className="footer-brand-name">Com-Light</h5>
                 <p className="footer-tagline">
-                  Empowering Communities, Transforming Lives. We bridge gaps in education and economic opportunity with sustainable, people-first solutions.
+                  Empowering Communities, Transforming Lives. We bridge gaps in education and economic opportunity with sustainable, people-first solutions
                 </p>
                 <div className="footer-socials">
                   <a href="https://www.facebook.com/share/1EgbzVGP6K/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i className="bi bi-facebook"></i></a>
@@ -73,9 +73,9 @@ export default function Footer() {
             <div className="col-12 col-md-3">
               <h6 className="footer-heading">Contact Us</h6>
               <ul className="footer-contact-list">
-                <li><i className="bi bi-geo-alt-fill"></i> Nairobi, Kenya</li>
-                <li><i className="bi bi-envelope-fill"></i> info@com-light.org</li>
-                <li><i className="bi bi-telephone-fill"></i> +254 700 000 000</li>
+                <li><i className="bi bi-geo-alt-fill"></i> Embu, Kenya</li>
+                <li><i className="bi bi-envelope-fill"></i> comlight.clg@gmail.com</li>
+                <li><i className="bi bi-telephone-fill"></i> +254 727 340 017</li>
                 <li><i className="bi bi-clock-fill"></i> Mon–Fri, 8AM – 5PM EAT</li>
               </ul>
             </div>
