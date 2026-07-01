@@ -38,7 +38,7 @@ const stories = [
 
 
 const outcomes = [
-  { icon: "bi-graph-up-arrow", title: "150+", sub: "Small businesses launched by program graduates" },
+  { icon: "bi-graph-up-arrow", title: "1", sub: "Small businesses launched by program graduates" },
   { icon: "bi-award-fill", title: "40%", sub: "Average income increase for economic empowerment graduates" },
   { icon: "bi-book-half", title: "2,000+", sub: "Books in circulation across our reading centres" },
   { icon: "bi-people-fill", title: "250+", sub: "Active mentorship pairs formed since 2022" },
